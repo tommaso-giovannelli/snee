@@ -24,7 +24,7 @@ This file describes the following topics:
 ## 1. System requirements
 
 The code is written in Python 3 (Python 3.12.7). System requirements are available at 
-!https://www.python.org/downloads/release/python-3127
+https://www.python.org/downloads/release/python-3127
 
 
 ## 2. Contents of the snee directory
