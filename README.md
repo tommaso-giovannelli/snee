@@ -1,8 +1,8 @@
-                                                snee (Version 0.1, January 2025)
-                                                ================================
-                          
-                                                           Read me
-                                                         ----------
+					snee (Version 0.1, January 2025)
+					================================
+		  
+						   Read me
+						 ----------
 
 
 snee is the name of the code associated with the manuscript entitled “Pareto sensitivity, 
