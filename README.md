@@ -16,7 +16,7 @@ under a GNU lesser general public license.
 This file describes the following topics:
 
 1. System requirements
-2. Contents of the snee directory 
+2. Code structure
 3. How to reproduce the results in the manuscript
 4. The snee team 
 
@@ -27,17 +27,17 @@ The code is written in Python 3 (Python 3.12.7). System requirements are availab
 https://www.python.org/downloads/release/python-3127
 
 
-## 2. Contents of the snee directory
+## 2. Code structure
 
-The directory includes the following files:
+The code includes the following files:
 
-  - snee.py: 
+  - **snee.py**: 
   
   Contains one class: 
 	
  Snee (used to mplements the snee approach to compute most-changing sub-fronts and knee solutions for the problems defined in the functions.py file).
 
-  - functions.py:	
+  - **functions.py**:	
   
   Contains several classes:
   
@@ -59,11 +59,11 @@ DO2DK (problem with 2 objectives)
 
 VFM1constr (problem with 3 objectives)
 
-  - driver.py:
+  - **driver.py**:
          
   To run the numerical experiments and obtain the figures in the manuscript, or to conduct custom experiments.
 
-  - README.txt:    
+  - **README.txt**:    
   
   The current file.
   
