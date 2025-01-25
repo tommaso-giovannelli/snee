@@ -63,7 +63,7 @@ VFM1constr (problem with 3 objectives)
          
   To run the numerical experiments and obtain the figures in the manuscript, or to conduct custom experiments.
 
-  - **README**:    
+  - **README.md**:    
   
   The current file.
   
