@@ -23,10 +23,12 @@ This file describes the following topics:
 
 ## 1. System requirements
 
-The code is written in Python 3 (recommended version: Python 3.11.0). System requirements are available at 
-https://www.python.org/downloads/release/python-3110
+The code is written in Python 3.
 
-To run the code, install the required dependencies using the command: pip install -r requirements.txt.
+To run the code, first install the required dependencies using the command: pip install -r requirements.txt.
+
+We recommend using Python 3.13.1. System requirements are available at 
+https://www.python.org/downloads/release/python-3131
 
 ## 2. Code structure
 
