@@ -88,7 +88,10 @@ corresponding keys, which are
 
 ## 3. How to reproduce the results in the manuscript or conduct custom numerical experiments
 
-To reproduce the results in the manuscript, comment out the lines related to the custom numerical experiments in the driver.py file, and then run it.
+To reproduce the results in the manuscript, comment out the lines related to the custom numerical experiments in the driver.py file, and then run it. 
+For the 3D figures, to match the visuals presented in the manuscript, ensure that Matplotlib is set to allow figure rotation. Note that the knee solutions 
+may not align precisely with the Pareto front for plotting purposes; otherwise, they would be obscured by other points on the Pareto front and would not be 
+clearly visible. The same consideration applies to the centers of the neighborhoods in the parameter, objective, and decision spaces.
 
 To conduct custom numerical experiments, comment out the lines related to the experiments from the paper in the driver.py file, and then run the file. 
 
