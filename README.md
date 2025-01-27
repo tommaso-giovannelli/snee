@@ -23,9 +23,10 @@ This file describes the following topics:
 
 ## 1. System requirements
 
-The code is written in Python 3 (Python 3.12.7). System requirements are available at 
-https://www.python.org/downloads/release/python-3127
+The code is written in Python 3 (recommended version: Python 3.11.0). System requirements are available at 
+https://www.python.org/downloads/release/python-3110
 
+To run the code, install the required dependencies using the command: pip install -r requirements.txt.
 
 ## 2. Code structure
 
@@ -63,11 +64,6 @@ VFM1constr (problem with 3 objectives)
          
   To run the numerical experiments and obtain the figures in the manuscript, or to conduct custom experiments.
 
-  - **README.md**:    
-  
-  The current file.
-  
- 
 In the driver.py file, the dictionary exp_param_dict contains several parameters that can be used to define 
 a numerical experiment. The values of such parameters can be set by modifying the values associated with the
 corresponding keys, which are
@@ -79,7 +75,15 @@ corresponding keys, which are
    * algo_snee (str):                      The algorithm used to find knee solutions: "NM" --> The NM algorithm; "DIRECT" --> The DIRECT algorithm
    * plot_obj_funct_metric (bool):         A flag to plot the MCM and MCF over iterations
    * plot_neighborhood (bool):             A flag to plot the neighborhood in the parameter, objective, and decision spaces
-   * iprint (int, optional):               Sets the verbosity level for printing information (higher values correspond to more detailed output) (default 1) 
+   * iprint (int, optional):               Sets the verbosity level for printing information (higher values correspond to more detailed output) (default 1)
+
+  - **requirements.txt**:
+
+  Contains all the Python packages and their specific versions needed to run the code.
+
+  - **README.md**:    
+  
+  The current file.
 
 
 ## 3. How to reproduce the results in the manuscript or conduct custom numerical experiments
