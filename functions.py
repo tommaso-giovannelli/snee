@@ -1,7 +1,6 @@
 import os
 import numpy as np
 import random
-import torch
 from sklearn.datasets import make_spd_matrix
 from scipy.sparse.linalg import cg, LinearOperator
 from scipy.optimize import approx_fprime
@@ -77,11 +76,6 @@ class SyntheticMultiobjProblem:
     	"""
         random.seed(seed)
         np.random.seed(seed)
-        torch.manual_seed(seed)
-        torch.cuda.manual_seed_all(seed)
-        torch.cuda.manual_seed(seed)
-        torch.backends.cudnn.benchmark = False
-        torch.backends.cudnn.deterministic = True
         os.environ['PYTHONHASHSEED'] = str(seed)
     
 
@@ -1068,7 +1062,7 @@ class DAS1:
 
 class DO2DK:
     
-    def __init__(self, tight_flag):
+    def __init__(self, tight_flag=False):
         
         self.dim = 30 #30      
         self.num_obj = 2

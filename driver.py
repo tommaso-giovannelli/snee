@@ -46,71 +46,71 @@ iprint = 1 # Sets the verbosity level for printing information (higher values co
 
 exp_counter = 0 # Used as a counter for experiments
 
-##############################
-## Section 3 from the paper ##
-##############################
+# ##############################
+# ## Section 3 from the paper ##
+# ##############################
 
-compute_knee_solutions_flag_val = False
-algo_snee_item = None
+# compute_knee_solutions_flag_val = False
+# algo_snee_item = None
             
-for name_prob_to_run_val in ["ZLT1", "GRV1", "VFM1", "ZLT1q"]:
-    for neighborhood_type in [0,1,2]:
-            exp_param_dict[exp_counter] = {'name_prob_to_run_val': name_prob_to_run_val, \
-                                 'neighborhood_type': neighborhood_type, \
-                                 'compute_knee_solutions_flag': compute_knee_solutions_flag_val, \
-                                 'algo_snee': algo_snee_item, \
-                                 'plot_obj_funct_metric': True, \
-                                 'plot_neighborhood': True,\
-                                 'iprint': iprint, \
-                                 'save_output': False
-                                 }
-            exp_counter += 1
+# for name_prob_to_run_val in ["ZLT1", "GRV1", "VFM1", "ZLT1q"]:
+#     for neighborhood_type in [0,1,2]:
+#             exp_param_dict[exp_counter] = {'name_prob_to_run_val': name_prob_to_run_val, \
+#                                  'neighborhood_type': neighborhood_type, \
+#                                  'compute_knee_solutions_flag': compute_knee_solutions_flag_val, \
+#                                  'algo_snee': algo_snee_item, \
+#                                  'plot_obj_funct_metric': True, \
+#                                  'plot_neighborhood': True,\
+#                                  'iprint': iprint, \
+#                                  'save_output': False
+#                                  }
+#             exp_counter += 1
 
-##############################
-## Section 4 from the paper ##
-##############################
+# ##############################
+# ## Section 4 from the paper ##
+# ##############################
 
-compute_knee_solutions_flag_val = True
-neighborhood_type = 1
+# compute_knee_solutions_flag_val = True
+# neighborhood_type = 1
 
-for name_prob_to_run_val in ["ZLT1", "GRV1", "VFM1", "GRV2"]:
-    for algo_snee_item in ["NM", "DIRECT"]:
-            exp_param_dict[exp_counter] = {'name_prob_to_run_val': name_prob_to_run_val, \
-                                 'neighborhood_type': neighborhood_type, \
-                                 'compute_knee_solutions_flag': compute_knee_solutions_flag_val, \
-                                 'algo_snee': algo_snee_item, \
-                                 'plot_obj_funct_metric': True, \
-                                 'plot_neighborhood': True,\
-                                 'iprint': iprint, \
-                                 'save_output': False
-                                 }
-            exp_counter += 1
+# for name_prob_to_run_val in ["ZLT1", "GRV1", "VFM1", "GRV2"]:
+#     for algo_snee_item in ["NM", "DIRECT"]:
+#             exp_param_dict[exp_counter] = {'name_prob_to_run_val': name_prob_to_run_val, \
+#                                  'neighborhood_type': neighborhood_type, \
+#                                  'compute_knee_solutions_flag': compute_knee_solutions_flag_val, \
+#                                  'algo_snee': algo_snee_item, \
+#                                  'plot_obj_funct_metric': True, \
+#                                  'plot_neighborhood': True,\
+#                                  'iprint': iprint, \
+#                                  'save_output': False
+#                                  }
+#             exp_counter += 1
 
-##############################
-## Section 5 from the paper ##
-##############################
+# ##############################
+# ## Section 5 from the paper ##
+# ##############################
 
-compute_knee_solutions_flag_val = True
-neighborhood_type = 1
+# compute_knee_solutions_flag_val = True
+# neighborhood_type = 1
 
-for name_prob_to_run_val in ["DAS1", "DO2DK", "DO2DKtight", "VFM1constr"]:
-    for algo_snee_item in ["NM", "DIRECT"]:
-            exp_param_dict[exp_counter] = {'name_prob_to_run_val': name_prob_to_run_val, \
-                                 'neighborhood_type': neighborhood_type, \
-                                 'compute_knee_solutions_flag': compute_knee_solutions_flag_val, \
-                                 'algo_snee': algo_snee_item, \
-                                 'plot_obj_funct_metric': True, \
-                                 'plot_neighborhood': True,\
-                                 'iprint': iprint, \
-                                 'save_output': False
-                                 }
-            exp_counter += 1            
+# for name_prob_to_run_val in ["DAS1", "DO2DK", "DO2DKtight", "VFM1constr"]:
+#     for algo_snee_item in ["NM", "DIRECT"]:
+#             exp_param_dict[exp_counter] = {'name_prob_to_run_val': name_prob_to_run_val, \
+#                                  'neighborhood_type': neighborhood_type, \
+#                                  'compute_knee_solutions_flag': compute_knee_solutions_flag_val, \
+#                                  'algo_snee': algo_snee_item, \
+#                                  'plot_obj_funct_metric': True, \
+#                                  'plot_neighborhood': True,\
+#                                  'iprint': iprint, \
+#                                  'save_output': False
+#                                  }
+#             exp_counter += 1            
 
 ##################################
 ## Custom Numerical Experiments ##
 ##################################
 
-exp_param_dict[exp_counter] = {'name_prob_to_run_val': "ZLT1", \
+exp_param_dict[exp_counter] = {'name_prob_to_run_val': "DO2DK", \
                      'neighborhood_type': 1, \
                      'compute_knee_solutions_flag': True, \
                      'algo_snee': "NM", \
