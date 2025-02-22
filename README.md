@@ -6,7 +6,7 @@
 
 
 snee is the name of the code associated with the manuscript entitled “Pareto sensitivity, 
-most-changing sub-fronts, and knee solutions”.
+most-changing sub-fronts, and knee solutions”, available at https://arxiv.org/pdf/2501.16993.
 
 
 snee is freely available for research, educational or commercial use, 
@@ -98,7 +98,12 @@ clearly visible. The same consideration applies to the centers of the neighborho
 To conduct custom numerical experiments, comment out the lines related to the experiments from the paper in the driver.py file, and then run the file. 
 
 
-## 4. The snee team 
+## 4. Citation 
+
+In case you'd like to cite our work, please refer to the following paper: T. Giovannelli, M. M. Raimundo, and L. N. Vicente, Pareto sensitivity, most-changing sub-fronts, and knee solutions, arXiv preprint arXiv:2501.16993 (2025).
+     
+
+## 5. The snee team 
 
    - Tommaso Giovannelli (University of Cincinnati)
    - Marcos Medeiros Raimundo (UNICAMP)
